@@ -305,7 +305,6 @@ footer a{
 }
 .nomer{
     font-size: 80px;
-    font-size: 80px;
     line-height: 56px;
     color: #00C97B;
 }
@@ -343,6 +342,7 @@ footer a{
       }
     h3{
         font-size: 2rem;
+        text-align: center;
     }
     h4{
         font-size: 1.5rem !important;
@@ -364,11 +364,30 @@ footer a{
    .aksiya button,label{
     margin-top: 20px;
    }
+   p{
+    text-align: center;
+   }
+   .economy div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    gap: 20px;
+   }
+   .economy h6{
+    text-align: center;
+   }
   }
+
+
+
   
 @media screen and (max-width: 576px) {
   h3{
       font-size: 1.5rem;
+      text-align: center;
+  }
+  p{
+    text-align: center;
   }
   nav ul{
     display: flex;
@@ -435,6 +454,15 @@ footer a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   }
+   .economy div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;align-items: center;
+    gap: 20px;
+   }
+   .economy h6{
+    text-align: center;
    }
   }
 
