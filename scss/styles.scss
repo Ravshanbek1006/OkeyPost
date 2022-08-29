@@ -273,6 +273,7 @@ section .box-1 p{
     border-bottom:2px solid #fff ;
     width: 100;
     color: white;
+    width: 100%;
    
 }
 
@@ -281,9 +282,7 @@ section .box-1 p{
     display: flex;
     justify-content: space-between;
 }
-.aksiya input{
-    width: 100%;
-}
+
 .aksiya input:focus{
     outline: none;
 }
@@ -330,6 +329,118 @@ footer a{
     height: 300px;
     object-fit: cover;
 }
+.blackfriday h6{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2428;
+}
+.blackfriday p{
+    font-weight: 300;
+    font-size:18px ;
+    color: $text-rangi;
+}
+.blackfriday a{
+    text-decoration: none;
+}
+.blackfriday h6{
+    margin-bottom: 20px;
+}
+.text-b{
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: $text-rangi !important;
+}
+.text-g{
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    color: $yashil-rang !important;
+}
+
+
+
+.cost h4{
+    font-weight: 700;
+    font-size: 24px;
+    color: $text-rangi;
+    margin-top: 30px;
+}
+.cost p{
+    font-size: 18px;
+    font-weight: 300;
+    color: $text-rangi;
+    margin:10px 0 ;
+}
+.cost img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.btn-blue{
+    width: 180px;
+    height: 56px;
+    background-color:  #41B7E9;
+    border-radius: 8px;
+    border: 2px solid #41B7E9;
+    color: $oq-rang;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.btn-blue:hover{
+    border: 2px solid #0c92cb;
+    background-color: $oq-rang;
+    color: #40B8EA;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.Услуги h6{
+    font-weight: 700;
+    font-size: 18px;
+    color: #222;
+}
+.Услуги-box{
+    margin: 10px 0;
+    border: 3px solid #fff;
+    padding: 10px ;
+    border-radius: 16px;
+    min-height: 80px;
+    display: flex;
+    align-items: center;
+   
+}
+.Услуги-box:hover{
+    border: 3px solid  #41B7E9;
+}
+.Услуги p{
+    margin-bottom: 0;
+}
+
+.sisilka label{
+    color: #fff;
+    font-weight: 300;
+}
+.sisilka input{
+    background: transparent;
+    border-bottom:2px solid #fff ;
+    width: 100;
+    color: white;
+    width: 100%;
+   
+}
+.sisilka input:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width:992px){
     nav form{
@@ -376,11 +487,21 @@ footer a{
    .economy h6{
     text-align: center;
    }
+   .blackfriday h6,p,a{
+    text-align: start;
+   }
   }
 
 
 
   
+
+
+
+
+
+
+
 @media screen and (max-width: 576px) {
   h3{
       font-size: 1.5rem;
@@ -463,6 +584,9 @@ footer a{
    }
    .economy h6{
     text-align: center;
+   }
+   .blackfriday h6,p,a{
+    text-align:center;
    }
   }
 
