@@ -490,6 +490,47 @@ footer a{
    .blackfriday h6,p,a{
     text-align: start;
    }
+   .variant *{
+    text-align: center;
+   }
+   .Услуги-box h6{
+    overflow-x:auto;
+   }
+   .Услуги-box p,h6{
+    text-align: start;
+   }
+   .cost h4,p{
+    text-align: center;
+   }
+   .cost .m-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  }
+  .th6-b{
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .tp-0{
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .th6-b2{
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .dopo-item{
+    border: 2px solid #fff;
+    padding: 15px;
+    border-radius: 16px;
+    margin-top: 20px;
+  }
+  .dopo-item:hover{
+    border: 2px solid #40B8EA;
   }
 
 
@@ -587,6 +628,9 @@ footer a{
    }
    .blackfriday h6,p,a{
     text-align:center;
+   }
+   .Услуги-box p,h6{
+    text-align: center;
    }
   }
 
