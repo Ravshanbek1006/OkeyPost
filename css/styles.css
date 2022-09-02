@@ -25,6 +25,13 @@ h3 {
   cursor: pointer;
 }
 
+.navbar {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
 nav a {
   font-size: 15px;
   font-weight: 600;
@@ -299,6 +306,9 @@ footer a {
   font-size: 80px;
   line-height: 56px;
   color: #00C97B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .economy h6 {
@@ -436,8 +446,38 @@ footer a {
   width: 100%;
 }
 
+.search {
+  border: 3px solid #fff;
+  border-radius: 16px;
+  padding: 40px;
+}
+
 .sisilka input:focus {
   outline: none;
+}
+
+.search h6 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.search:hover {
+  border: 3px solid #40B8EA;
+}
+
+.search input {
+  background: transparent;
+  width: 100%;
+  border-bottom: 2px solid #1F2428;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.accordion-item h6 {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 992px) {
@@ -507,34 +547,32 @@ footer a {
     justify-content: center;
     align-items: center;
   }
-}
-
-.th6-b {
-  font-size: 18px;
-  font-weight: 700;
-}
-
-.tp-0 {
-  font-weight: 400;
-  font-size: 14px;
-}
-
-.th6-b2 {
-  font-size: 18px;
-  font-weight: 700;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.dopo-item {
-  border: 2px solid #fff;
-  padding: 15px;
-  border-radius: 16px;
-  margin-top: 20px;
-}
-
-.dopo-item:hover {
-  border: 2px solid #40B8EA;
+  .th6-b {
+    font-size: 18px;
+    font-weight: 700;
+  }
+  .tp-0 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .th6-b2 {
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .dopo-item {
+    border: 2px solid #fff;
+    padding: 15px;
+    border-radius: 16px;
+    margin-top: 20px;
+  }
+  .dopo-item:hover {
+    border: 2px solid #40B8EA;
+  }
+  .blackfriday p {
+    text-align: start;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -625,6 +663,9 @@ footer a {
     text-align: center;
   }
   .Услуги-box p, h6 {
+    text-align: center;
+  }
+  .blackfriday p {
     text-align: center;
   }
 }
