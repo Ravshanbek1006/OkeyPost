@@ -464,7 +464,70 @@ footer a{
 .accordion-item h6{
     font-size: 18px ;
     font-weight: 700;
+    text-align: start;
 }
+.bonus-box{
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        margin-bottom: 20px;
+    }
+    h6{
+        font-weight: 700;
+        font-size: 18px;
+        color: $text-rangi;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 300    ;
+    }
+}
+.blog{
+    img{
+        width: 100%;
+        height: auto;
+    }
+    h6{
+        font-size: 22px;
+        font-weight: 700;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+}
+.magazin-item{
+    padding: 10px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #fff;
+    transition: all 0.3s ease;
+    border-radius: 16px;
+    margin-top: 50px;
+    img{
+        width: 170px;
+        height: auto;
+        object-fit: cover;
+    }
+    h6{
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+.magazin-item:hover{
+ border: 3px solid #0c92cb;
+ transform: scale(1.05);
+}
+.magazin-img{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 
 
@@ -568,6 +631,15 @@ footer a{
    .blackfriday p{
     text-align: start;
    }
+   .bonus-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+   
+
+
   }
  
 
