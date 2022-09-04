@@ -680,6 +680,20 @@ footer a {
   .blog > div > div {
     margin-top: 40px;
   }
+  .t-c-md {
+    text-align: center;
+  }
+  .btn-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .marketing h6 {
+    text-align: center;
+  }
+  .vibor h6 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -792,6 +806,9 @@ footer a {
   }
   .tab-content > div > div {
     margin-top: 30px;
+  }
+  .t-c-sm {
+    text-align: center;
   }
 }
 /*# sourceMappingURL=styles.css.map */
