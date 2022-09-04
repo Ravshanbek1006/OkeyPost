@@ -32,6 +32,12 @@ h3 {
   left: 0;
 }
 
+nav button i {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
 nav a {
   font-size: 15px;
   font-weight: 600;
@@ -170,10 +176,16 @@ section .box-1 p {
 
 .tab-content {
   width: 100%;
-  background-color: #40B8EA;
+  background-color: #fff;
   min-height: 75vh;
   margin: 10px;
   display: none;
+}
+
+.tab-content img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .tab-content.active {
@@ -369,6 +381,10 @@ footer a {
   color: #00C97B !important;
 }
 
+.cost > div {
+  margin-top: 30px;
+}
+
 .cost h4 {
   font-weight: 700;
   font-size: 24px;
@@ -548,6 +564,11 @@ footer a {
   flex-direction: column;
 }
 
+.flag {
+  width: 100%;
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 992px) {
   nav form {
     margin-bottom: 20px;
@@ -647,6 +668,9 @@ footer a {
     justify-content: center;
     align-items: center;
   }
+  .tab-content > div > div {
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -685,6 +709,12 @@ footer a {
   }
   .marketing h3, h6, p {
     text-align: center;
+  }
+  .dastavka .box-item {
+    margin-top: 20px;
+  }
+  .dastavka button {
+    margin-top: 20px;
   }
   .m-box {
     display: flex;
@@ -741,6 +771,18 @@ footer a {
   }
   .blackfriday p {
     text-align: center;
+  }
+  .tab-item-1 {
+    order: 2;
+  }
+  .tab-item-2 {
+    order: 1;
+  }
+  .tab-item-3 {
+    order: 3;
+  }
+  .tab-content > div > div {
+    margin-top: 30px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
