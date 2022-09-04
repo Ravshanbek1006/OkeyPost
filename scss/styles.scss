@@ -655,11 +655,14 @@ footer a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top:40px;
    }
    .tab-content>div>div{
     margin-top: 50px;
    }
-   
+   .blog>div>div{
+    margin-top: 40px;
+   }
 
 
   }
@@ -712,10 +715,10 @@ footer a{
     text-align: center;
   }
   .dastavka .box-item{
-    margin-top:20px;
+    margin-top:40px;
   }
   .dastavka button{
-    margin-top: 20px;
+    margin-top: 40px;
   }
  .m-box{
    display: flex;
