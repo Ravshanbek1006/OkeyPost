@@ -32,6 +32,11 @@ h3 {
   left: 0;
 }
 
+nav {
+  position: sticky;
+  z-index: 3 !important;
+}
+
 nav button i {
   font-size: 40px;
   font-weight: 700;
